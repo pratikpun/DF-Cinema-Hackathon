@@ -103,3 +103,61 @@ ul a:hover:not(:first-child) {
 }
 
 /* FOOTER */
+footer {
+  color: white;
+  background-color: #0c0f0a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.socials a {
+  margin: 20px 30px;
+}
+.socials a:hover {
+  transform: scale(1.2);
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  height: auto;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+}
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+/* Youtube */
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+/* Reddit */
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
