@@ -177,9 +177,10 @@ footer {
   justify-content: center;
   align-items: center;
   width: 500px;
-  height: 200px;
+  height: 300px;
   margin: 40px 10px;
   border: 2px solid black;
+  border-radius: 10px;
 }
 .signup-form {
   width: 40%;
@@ -223,4 +224,56 @@ form input,
 select {
   width: 40%;
   padding: 7px;
+}
+
+/* WHAT'S ON */
+.whats-on-content-body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid red;
+  padding: 30px;
+}
+.whats-on-image {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  border: 2px solid blueviolet;
+}
+.whats-on-image img {
+  width: 350px;
+  height: 440px;
+}
+
+.whats-on-content {
+  background-color: grey;
+  display: flex;
+  border: 2px solid grey;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: auto;
+  padding: 50px;
+  border-radius: 10px;
+}
+.whats-on-content h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.whats-on-content.opening-times {
+  display: flex;
+  align-items: flex-start;
+  background-color: grey;
+}
+.whats-on-content.opening-times div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: ; */
+}
+table {
+  border: 1px solid blue;
+  text-align: right;
+  padding: 5px;
 }
