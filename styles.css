@@ -147,7 +147,7 @@ footer {
 
 /* Instagram */
 .fa-instagram {
-  background: #125688;
+  background: #f53614;
   color: white;
 }
 /* Youtube */
@@ -160,4 +160,67 @@ footer {
 .fa-reddit {
   background: #ff5700;
   color: white;
+}
+
+/* SIGN UP  */
+
+.signup-content {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 22px;
+}
+
+.signup-images img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 200px;
+  margin: 40px 10px;
+  border: 2px solid black;
+}
+.signup-form {
+  width: 40%;
+  margin: 40px 10px;
+  max-height: 80%;
+}
+.signup-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 2px solid red; */
+}
+
+form div {
+  margin-bottom: 50px;
+  max-width: 70%;
+}
+form div:last-child {
+  text-align: center;
+}
+form button {
+  background-color: #0c0f0a;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+form button:hover {
+  background-color: rgb(252, 107, 81);
+  color: black;
+  transform: scale(1.1);
+  font-size: 14px;
+}
+
+form label {
+  display: inline-block;
+  text-align: right;
+  width: 150px;
+  margin-right: 10px;
+}
+form input,
+select {
+  width: 40%;
+  padding: 7px;
 }
